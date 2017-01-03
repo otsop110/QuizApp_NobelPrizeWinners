@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp_nobelprizewinners.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            style="@style/TextView"
+            android:text="@string/q1_question_one" />
+
+        <EditText
+            android:id="@+id/edit_answer_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:hint="@string/q1_edit_answer_one"
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/TextView"
+            android:text="@string/q2_question_two" />
+
+        <CheckBox
+            android:id="@+id/checkbox_chemistry"
+            style="@style/CheckBox"
+            android:text="@string/q2_chemistry" />
+
+        <CheckBox
+            android:id="@+id/checkbox_fineArts"
+            style="@style/CheckBox"
+            android:text="@string/q2_fineArts" />
+
+        <CheckBox
+            android:id="@+id/checkbox_mathematics"
+            style="@style/CheckBox"
+            android:text="@string/q2_mathematics" />
+
+        <CheckBox
+            android:id="@+id/checkbox_physics"
+            style="@style/CheckBox"
+            android:text="@string/q2_physics" />
+
+        <CheckBox
+            android:id="@+id/checkbox_medicine"
+            style="@style/CheckBox"
+            android:text="@string/q2_medicine" />
+
+        <TextView
+            style="@style/TextView"
+            android:text="@string/q3_question_three" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/q3_radioGroup"
+            style="@style/RadioGroup">
+
+            <RadioButton
+                android:id="@+id/radio_q3tooFew"
+                style="@style/RadioButton"
+                android:onClick="onRadioButtonClicked_answerThree"
+                android:text="@string/q3_tooFew" />
+
+            <RadioButton
+                android:id="@+id/radio_q3tooGood"
+                style="@style/RadioButton"
+                android:onClick="onRadioButtonClicked_answerThree"
+                android:text="@string/q3_goodAnswer" />
+
+            <RadioButton
+                android:id="@+id/radio_q3tooMany"
+                style="@style/RadioButton"
+                android:onClick="onRadioButtonClicked_answerThree"
+                android:text="@string/q3_tooMany" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextView"
+            android:text="@string/q4_question_four" />
+
+        <EditText
+            android:id="@+id/edit_answer_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:hint="@string/q4_edit_answer_four"
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/TextView"
+            android:text="@string/q5_question_five" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/q5_radioGroup"
+            style="@style/RadioGroup">
+
+            <RadioButton
+                android:id="@+id/radio_tooFewWomen"
+                style="@style/RadioButton"
+                android:onClick="onRadioButtonClicked_answerFive"
+                android:text="@string/q5_tooFewWomen" />
+
+            <RadioButton
+                android:id="@+id/radio_goodAmountWomen"
+                style="@style/RadioButton"
+                android:onClick="onRadioButtonClicked_answerFive"
+                android:text="@string/q5_goodAnswer" />
+
+            <RadioButton
+                android:id="@+id/radio_tooManyWomen"
+                style="@style/RadioButton"
+                android:onClick="onRadioButtonClicked_answerFive"
+                android:text="@string/q5_tooManyWomen" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextView"
+            android:text="@string/q6_question_six" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/q6_radioGroup"
+            style="@style/RadioGroup">
+
+            <RadioButton
+                android:id="@+id/radio_missionToMars"
+                style="@style/RadioButton"
+                android:onClick="onRadioButtonClicked_answerSix"
+                android:text="@string/q6_missionToMars" />
+
+            <RadioButton
+                android:id="@+id/radio_forbesOneHundred"
+                style="@style/RadioButton"
+                android:onClick="onRadioButtonClicked_answerSix"
+                android:text="@string/q6_forbesOneHundred" />
+
+            <RadioButton
+                android:id="@+id/radio_greatestBenefit"
+                style="@style/RadioButton"
+                android:onClick="onRadioButtonClicked_answerSix"
+                android:text="@string/q6_greatestBenefit" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/submitButton"
+                style="@style/Button"
+                android:onClick="allDone"
+                android:text="@string/button_send" />
+
+            <Button
+                android:id="@+id/resetButton"
+                style="@style/Button"
+                android:onClick="resetQuiz"
+                android:text="@string/button_reset" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

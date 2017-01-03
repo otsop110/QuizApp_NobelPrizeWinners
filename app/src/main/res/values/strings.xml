@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Nobel Prize Quiz</string>
+    <string name="q1_question_one">1. In which capital city does the Nobel Prize Award Ceremony take place?</string>
+    <string name="q1_edit_answer_one">Enter your answer here</string>
+    <string name="q2_question_two">2. Nobel Prizes are awarded in the following disciplines. Choose three correct answers.</string>
+    <string name="q2_chemistry">Chemistry</string>
+    <string name="q2_fineArts">Fine Arts</string>
+    <string name="q2_mathematics">Mathematics</string>
+    <string name="q2_medicine">Medicine</string>
+    <string name="q2_physics">Physics</string>
+    <string name="q3_question_three">3. For how many times and how many people and organizations have The Nobel prize and the Prize in Economic Sciences been awarded between 1901 and 2016?</string>
+    <string name="q3_tooFew">19 times to 211 people and organizations.</string>
+    <string name="q3_goodAnswer">579 times to 911 people and organizations.</string>
+    <string name="q3_tooMany">6279 times to 9911 people and organizations.</string>
+    <string name="q4_question_four">4. What is the First name of the youngest Nobel Laureate to whom the Nobel Peace prize 2014 was awarded?</string>
+    <string name="q4_edit_answer_four">Enter you answer here</string>
+    <string name="q5_question_five">5. How many times have the Nobel Prize and Prize in Economic Sciences been awarded to women?</string>
+    <string name="q5_tooFewWomen">1</string>
+    <string name="q5_goodAnswer">49</string>
+    <string name="q5_tooManyWomen">249</string>
+    <string name="q6_question_six">6. What kind of individuals are the Nobel Prizes awarded to?</string>
+    <string name="q6_greatestBenefit">To those who, during the preceding year, shall have conferred the greatest benefit to mankind.</string>
+    <string name="q6_forbesOneHundred">To those who, during the preceding year, shall have scaled up their fortune and ascended to the list of Forbes 100.</string>
+    <string name="q6_missionToMars">To those who, during the preceding year, shall have taken a mission to Mars.</string>
+    <string name="button_send">All done</string>
+    <string name="button_reset">Reset Quiz</string>
+</resources>
